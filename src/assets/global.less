@@ -1,0 +1,135 @@
+@import "val.less";
+
+* {
+    box-sizing: border-box;
+}
+
+/* 圓弧輸入框 */
+.fofadon-input {
+    width: 100%;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    border: 2px solid @fofadon-pale-color;
+    border-radius: 2em;
+    &:focus {
+        border: 2px solid @fofadon-main-color;
+    }
+    &::placeholder {
+        color: @fofadon-pale-color;
+    }
+    &.err {
+        border: 2px solid #f00;
+    }
+}
+
+.fofadon-font-pink {
+    color: @fofadon-main-color;
+}
+
+/* 置中 */
+.t-center {
+    text-align: center;
+}
+
+.abs-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 表單示頁面外框 */
+.form-margin {
+    margin: 3px 3px 0px 3px;
+}
+
+.single-cell-height{
+    height: 58px;
+}
+
+.peice-content {
+   
+    margin: 5px 3px 0px 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    width: auto;
+}
+
+.form-bg {
+   background-color: hsl(0, 44%, 96%);
+}
+
+.form-bg-w {
+    background-color: white;
+ }
+
+.shadow {
+    -moz-box-shadow: 0px 3px 18px #0a090aee;
+    -webkit-box-shadow: 0px 3px 18px #0a090aee;
+    box-shadow: 0px 3px 18px #0a090aee;
+}
+
+/* 選單樣式*/
+.select-title {
+    display: block;
+    width: 100%;
+    padding-top: 7px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.select-content {
+    flex: 1;
+    overflow: scroll;
+}
+.select-display {
+    display: block;
+    width: 100%;
+    padding-top: 7px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    span {
+        margin-right: 8px;
+    }
+}
+.select-item {
+    display: block;
+    margin-bottom: 3px;
+    padding-left: 10px;
+}
+.selected {
+    background-color: #aaaaaa;
+    color: blue;
+}
+.select-cmd {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        height: 100%;
+    }
+    .confirm {
+        color: @fofadon-main-color;
+    }
+    .cancel {
+        color: gray;
+    }
+}
+
+.errline {
+    height: 30px;
+    color: red;
+}

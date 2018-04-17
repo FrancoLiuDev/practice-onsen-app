@@ -1,0 +1,27 @@
+{
+    "common": {
+        "01.006": {
+            "msg": "STR_ERROR_PASSWORD"
+        },
+        "02.001": {
+            "msg": "STR_USER_NOT_EXIST"
+        },
+        "01.011": {
+            "msg": "STR_INVALID_OTP"
+        },
+        "02.004": {
+            "msg": "STR_USER_EXIST"
+        },
+        "02.006": {
+            "msg": "STR_PHONE_NOT_EXIST"
+        }
+
+    },
+    "login": {
+
+    },
+    "register": {
+
+    }
+
+}

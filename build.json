@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "leedian.keystore",
+            "storePassword": "leedian@123",
+            "alias": "leedian",
+            "password": "leedian@123",
+            "keystoreType": ""
+        },
+        "release": {
+            "keystore": "leedian.keystore",
+            "storePassword": "leedian@123",
+            "alias": "leedian",
+            "password": "leedian@123",
+            "keystoreType": ""
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ROOT": "/api/v1",
+    "K_TOOKEN": "LeedianPlatformToken",
+    "Encrypt_Key": "769E18DAFE373A2F8A17B415",
+    "USER_RESGISTER": "/user/code/phone",
+    "USER_USER_RESGISTER_CODE": "/user/reg/phone/code",
+    "USER_RESGISTER_PASS": "/user/reg/phone/pwd",
+    "USER_RESGISTER_3RD": "/user/reg/3rd/code",
+    "USER_LOGIN": "/user/login",
+    "USER_LOGIN_3RD": "/user/login-3rd",
+    "USER_LOGUT": "/user/logout",
+    "RESET_PASS_CODE": "/user/reset-pwd/phone/code",
+    "RESET_PASS_PWD": "/user/reset-pwd/phone/pwd",
+    "RESET_PASS_CHG": "/user/change/pwd",
+    "USER_BIND_3RD": "/user/bind/3rd",
+    "USER_UNBIND_3RD": "/user/unbind/3rd",
+    "QQ_APP_ID": "101451885"
+}
